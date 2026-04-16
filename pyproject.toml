@@ -3,7 +3,7 @@ name = "no-value"
 version = "1.0.0"
 description = "Sentinel value for missing data where None has its own meaning"
 authors = [
-    {name = "Miriada IO"}
+    {name = "Miriada"}
 ]
 license = {text = "MIT"}
 readme = "README.md"
