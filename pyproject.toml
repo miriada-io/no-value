@@ -3,15 +3,18 @@ name = "no-value"
 version = "1.0.0"
 description = "Sentinel value for missing data where None has its own meaning"
 authors = [
-    {name = "Miriada"}
+    {name = "Miriada", email = "info@miriada.io"}
 ]
-license = {text = "MIT"}
+license = "MIT"
+license-files = ["LICENSE"]
 readme = "README.md"
 requires-python = ">=3.10"
+keywords = ["sentinel", "sentinel-value", "missing", "null", "none", "undefined"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
@@ -23,10 +26,22 @@ classifiers = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=9.0.2",
-    "coverage>=7.13.5",
+    "pytest>=8.0",
+    "coverage>=7.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/miriada-io/no-value"
+Repository = "https://github.com/miriada-io/no-value"
+Issues = "https://github.com/miriada-io/no-value/issues"
+Changelog = "https://github.com/miriada-io/no-value/blob/master/CHANGELOG.md"
+
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling>=1.27"]
 build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/no_value"]
