@@ -1,9 +1,9 @@
 # no-value
 
-[![PyPI version](https://img.shields.io/pypi/v/no-value.svg)](https://pypi.org/project/no-value/)
-[![Python versions](https://img.shields.io/pypi/pyversions/no-value.svg)](https://pypi.org/project/no-value/)
-[![Tests](https://github.com/miriada-io/no-value/actions/workflows/tests.yml/badge.svg)](https://github.com/miriada-io/no-value/actions/workflows/tests.yml)
-[![License](https://img.shields.io/pypi/l/no-value.svg)](https://github.com/miriada-io/no-value/blob/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/no-value.svg?label=PyPI)](https://pypi.org/project/no-value/)
+[![Python](https://img.shields.io/pypi/pyversions/no-value.svg?label=Python)](https://pypi.org/project/no-value/)
+[![Tests](https://github.com/miriada-io/no-value/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/miriada-io/no-value/actions/workflows/tests.yml)
+[![License](https://img.shields.io/pypi/l/no-value.svg?label=License)](https://github.com/miriada-io/no-value/blob/master/LICENSE)
 
 Sentinel value to express missing keys or values where `None` has its own meaning.
 
