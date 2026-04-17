@@ -1,7 +1,9 @@
 # no-value
 
+[![PyPI version](https://img.shields.io/pypi/v/no-value.svg)](https://pypi.org/project/no-value/)
+[![Python versions](https://img.shields.io/pypi/pyversions/no-value.svg)](https://pypi.org/project/no-value/)
 [![Tests](https://github.com/miriada-io/no-value/actions/workflows/tests.yml/badge.svg)](https://github.com/miriada-io/no-value/actions/workflows/tests.yml)
-[![License](https://img.shields.io/github/license/miriada-io/no-value)](LICENSE)
+[![License](https://img.shields.io/pypi/l/no-value.svg)](https://github.com/miriada-io/no-value/blob/master/LICENSE)
 
 Sentinel value to express missing keys or values where `None` has its own meaning.
 
@@ -48,4 +50,4 @@ Static analysis tools (mypy, pyright) do not fully support custom sentinel types
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/miriada-io/no-value/blob/master/LICENSE)
